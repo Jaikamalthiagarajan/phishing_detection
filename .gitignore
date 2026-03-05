@@ -57,9 +57,6 @@ data/backup/
 htmlcov/
 
 cat >> .gitignore << EOF
-# Ignore large model files
-backend/model/*.pkl
-backend/model/
 
 # Ignore virtual environment
 env/
